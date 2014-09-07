@@ -29,4 +29,4 @@ for point in open(sys.argv[1]):
 #seq_lines = [int(i) for i in line.split() for line in open(sys.argv[1])]
 out = open(sys.argv[2], 'w')
 for point in grahamscan(points):
-	out.write(str(point)+'\n')
+	out.write(str(point+1)+'\n')
